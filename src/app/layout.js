@@ -1,18 +1,22 @@
-import { Sora } from "next/font/google";
+import { Fira_Sans } from "next/font/google";
 import "./globals.css";
-
-
-const inter = Sora ({ subsets: ["latin"], weight : "400" });
+import Scroll from "./Scroll/Scroll";
+ 
+const firaSans = Fira_Sans({
+  subsets: ["latin"],  
+  weight: "400",       
+});
 
 export const metadata = {
   title: "Chennai | Digital print",
-  description: "Digital print in chennai",
+  description: "Digital print in Chennai",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={firaSans.className}>
+        <Scroll />
         {children}
       </body>
     </html>

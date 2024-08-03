@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+html.lenis,
+html.lenis body {
+  height: auto !important;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden !important;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none !important;
+}
 
 h1,
 h2,
@@ -11,7 +31,7 @@ h5,
 h6 {}
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -19,13 +39,19 @@ h6 {}
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #80C4E9;
-  border-radius: 1rem;
+  background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  border-radius: 5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #FF7F3E;
+  background: linear-gradient(45deg,
+      rgb(0, 255, 255),
+      /* Cyan */
+      rgb(255, 0, 255),
+      /* Magenta */
+      rgb(255, 255, 0),
+      /* Yellow */
+      rgb(0, 0, 0)
+      /* Black */
+    );
 }
- 
-
- 
