@@ -65,7 +65,7 @@ const About = () => {
                     <Image src={"/About/print_mech.jpg"} height={2000} width={2000} className='w-full h-screen object-cover rounded-sm  ' />
                 </div>
                 <div className='text-white'>
-                    <div className='text-[55px] p-5 uppercase text-center font-extrabold  '>
+                    <div className='text-5xl p-5 uppercase text-center font-abold  '>
                         <h2>Why Choose Us</h2>
                     </div>
                     <div id='cards' className='w-full grid grid-cols-2 pt-10  '>
