@@ -28,246 +28,165 @@ const Product = () => {
             ]
         },
         {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
+            Name: "Flyers",
+            Main: "/Products/Flyers/flyers 1.jpg",
             Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
+                "/Products/Flyers/flyers 1.jpg",
+                "/Products/Flyers/flyers 2.jpg",
+                "/Products/Flyers/flyers 3.jpg",
+                "/Products/Flyers/flyers 4.jpg",
             ]
         },
         {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
+            Name: "Event Ticket",
+            Main: "/Products/Eventticket/eventticket 3.jpg",
             Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
+                "/Products/Eventticket/eventticket 1.jpg",
+                "/Products/Eventticket/eventticket 2.jpg",
+                "/Products/Eventticket/eventticket 3.jpg",
+                "/Products/Eventticket/eventticket 4.jpg",
             ]
         },
         {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
+            Name: "Envelop",
+            Main: "/Products/Envelop/Envelope 2.jpg",
             Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
+                "/Products/Envelop/Envelope 1.jpg",
+                "/Products/Envelop/Envelope 2.jpg",
+                "/Products/Envelop/Envelope 3.jpg",
+                "/Products/Envelop/Envelope 4.jpg",
             ]
         },
         {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
+            Name: "Certificate",
+            Main: "/Products/certificate/cer1.jpg",
             Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
+                "/Products/certificate/cer1.jpg",
+                "/Products/certificate/cer2.jpg",
+                "/Products/certificate/cer3.jpg",
+                "/Products/certificate/cer4.jpg",
             ]
         },
         {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
+            Name: "ID Cards",
+            Main: "/Products/idcard/IDCARD 1.jpg",
             Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
+                "/Products/idcard/IDCARD 1.jpg",
+                "/Products/idcard/IDCARD 2.jpg",
+                "/Products/idcard/IDCARD 3.jpg",
+                "/Products/idcard/IDCARD 4.jpg",
             ]
         },
         {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
+            Name: "Visiting Cards",
+            Main: "/Products/Visitingcard/visitingcard 1.jpg",
             Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
+                "/Products/Visitingcard/visitingcard 1.jpg",
+                "/Products/Visitingcard/visitingcard 2.jpg",
+                "/Products/Visitingcard/visitingcard 3.jpg",
+                "/Products/Visitingcard/visitingcard 4.jpg",
             ]
         },
         {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
+            Name: "Stickers",
+            Main: "/Products/Sticker/sticker 1.jpg",
             Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
+                "/Products/Sticker/sticker 1.jpg",
+                "/Products/Sticker/sticker 2.jpg",
+                "/Products/Sticker/sticker 4.jpg",
+                "/Products/Sticker/sticker 5.jpg",
             ]
         },
         {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
+            Name: "Invitaion",
+            Main: "/Products/Invitation/invitation 1.jpg",
             Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
+                "/Products/Invitation/invitation 1.jpg",
+                "/Products/Invitation/invitation 2.jpg",
+                "/Products/Invitation/invitation 3.jpg",
+                "/Products/Invitation/invitation 4.jpg",
             ]
         },
         {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
+            Name: "Plan's",
+            Main: "/Products/Plan/plan.jpg",
             Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
+                "/Products/Plan/plan.jpg",
+                "/Products/Plan/plan2.jpg",
+                "/Products/Plan/plan3.jpg",
+                "/Products/Plan/plan4.jpg",
             ]
         },
         {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
+            Name: "Photos Frames",
+            Main: "/Products/Photo/photo.jpg",
             Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
+                "/Products/Photo/photo.jpg",
+                "/Products/Photo/photo2.jpg",
+                "/Products/Photo/photo3.jpg",
+                "/Products/Photo/photo4.jpg",
             ]
         },
         {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
+            Name: "Menu Card's",
+            Main: "/Products/Menucard/menucard 1.jpg",
             Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
+                "/Products/Menucard/menucard 1.jpg",
+                "/Products/Menucard/menucard 2.jpg",
+                "/Products/Menucard/menucard 3.jpg",
+                "/Products/Menucard/menucard 4.jpg",
             ]
         },
         {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
+            Name: "Booklet",
+            Main: "/Products/Booklet/booklet 2.jpg",
             Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
+                "/Products/Booklet/booklet 1.jpg",
+                "/Products/Booklet/booklet 2.jpg",
+                "/Products/Booklet/booklet 3.jpg",
+                "/Products/Booklet/booklet 4.jpg",
             ]
         },
         {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
+            Name: "Spiral",
+            Main: "/Products/Spiral/spiral2.jpg",
             Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
+                "/Products/Spiral/spiral.jpg",
+                "/Products/Spiral/spiral2.jpg",
+                "/Products/Spiral/spiral3.jpg",
+                "/Products/Spiral/spiral4.jpg",
             ]
         },
         {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
+            Name: "Wiro Binding",
+            Main: "/Products/Wiro/wiro4.jpg",
             Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
+                "/Products/Wiro/wiro.jpg",
+                "/Products/Wiro/wiro2.jpg",
+                "/Products/Wiro/wiro3.jpg",
+                "/Products/Wiro/wiro4.jpg",
             ]
         },
         {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
+            Name: "Lanyard",
+            Main: "/Products/Lanyard/lanyard 1.jpg",
             Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
+                "/Products/Lanyard/lanyard 1.jpg",
+                "/Products/Lanyard/lanyard 2.jpg",
+                "/Products/Lanyard/lanyard 3.jpg",
+                "/Products/Lanyard/lanyard 4.jpg",
             ]
         },
         {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
+            Name: "Catlog",
+            Main: "/Products/Catlog/Catlog 3.jpg",
             Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
+                "/Products/Catlog/Catlog 1.jpg",
+                "/Products/Catlog/Catlog 2.jpg",
+                "/Products/Catlog/Catlog 3.jpg",
+                "/Products/Catlog/Catlog 4.jpg",
             ]
         },
-        {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
-            Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
-            ]
-        },
-        {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
-            Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
-            ]
-        },
-        {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
-            Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
-            ]
-        },
-        {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
-            Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
-            ]
-        },
-        {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
-            Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
-            ]
-        },
-        {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
-            Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
-            ]
-        },
-        {
-            Name: "Bill Books",
-            Main: "/Products/Bill/bill3.jpg",
-            Image_url: [
-                "/Products/Bill/bill1.jpg",
-                "/Products/Bill/bill2.jpg",
-                "/Products/Bill/bill3.jpg",
-                "/Products/Bill/bill4.jpg",
-            ]
-        },
-        {
-            Name: "Broucher's",
-            Main: "/Products/Broucher/Broucher 1.jpg",
-            Image_url: [
-                "/Products/Broucher/Broucher 1.jpg",
-                "/Products/Broucher/Broucher 2.jpg",
-                "/Products/Broucher/Broucher 3.jpg",
-                "/Products/Broucher/Broucher 4.jpg",
-            ]
-        },
-         
     ];
 
     const openGallery = (images) => {
@@ -280,7 +199,7 @@ const Product = () => {
     return (
         <div className="bg-gray-100">
             <div>
-                <h1 className="text-2xl font-bold text-center py-5">Product</h1>
+                <h1 className="text-5xl font-bold text-center py-5">Product</h1>
             </div>
             <div className="w-full min-h-screen flex justify-center items-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4  ">
