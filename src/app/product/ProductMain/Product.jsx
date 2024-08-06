@@ -69,12 +69,12 @@ const Product = () => {
         },
         {
             Name: "ID Cards",
-            Main: "/Products/idcard/IDCARD 1.jpg",
+            Main: "/Products/Idcard/IDCARD 1.jpg",
             Image_url: [
-                "/Products/idcard/IDCARD 1.jpg",
-                "/Products/idcard/IDCARD 2.jpg",
-                "/Products/idcard/IDCARD 3.jpg",
-                "/Products/idcard/IDCARD 4.jpg",
+                "/Products/Idcard/IDCARD 1.jpg",
+                "/Products/Idcard/IDCARD 2.jpg",
+                "/Products/Idcard/IDCARD 3.jpg",
+                "/Products/Idcard/IDCARD 4.jpg",
             ]
         },
         {
