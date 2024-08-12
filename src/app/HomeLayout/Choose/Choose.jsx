@@ -4,7 +4,7 @@ import React from 'react';
 const Choose = () => {
     return (
         <>
-            <div className='Choose py-5 block'>
+            <div id="About" className='Choose py-5 block'>
                 <div className='flex justify-center items-center w-full'>
                     <div className='flex justify-center items-center'>
                         <h2 className='text-[55px] font-extrabold'>ABOUT</h2>

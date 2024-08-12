@@ -1,4 +1,6 @@
 "use client"
+import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState } from 'react';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
@@ -236,6 +238,12 @@ const Product = () => {
                     </div>
                 </div>
             )}
+
+            <div className=" fixed right-10 bottom-10 rounded-full  hover:border-[2px] hover:border-black ">
+                <Link href="/">
+                    <Image width="80" height="80" src="https://img.icons8.com/dotty/80/circled-left-2.png" className="w-[65px] h-[65px] "  alt="circled-left-2" />
+                </Link>
+            </div>
         </div>
     );
 }

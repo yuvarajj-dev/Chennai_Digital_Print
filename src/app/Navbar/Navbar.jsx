@@ -33,8 +33,8 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div className='hidden md:flex justify-evenly items-center  z-40  '>
-                        <Link className='pl-9 text-[17px] text-[#000] hover:text-[#000000b8] font-[500] uppercase' href={"#Home"}>Home</Link>
                         <Link className='pl-9 text-[17px] text-[#000] hover:text-[#000000b8] font-[500] uppercase' href={"#About"}>About</Link>
+                        <Link className='pl-9 text-[17px] text-[#000] hover:text-[#000000b8] font-[500] uppercase' href={"#Choose"}>Services</Link>
                         <Link className='pl-9 text-[17px] text-[#000] hover:text-[#000000b8] font-[500] uppercase' href={"/product"}>Products</Link>
                         <Link className='pl-9 text-[17px] text-[#000] hover:text-[#000000b8] font-[500] uppercase' href={"#Contact"}>Contact</Link> 
                     </div>
