@@ -199,7 +199,7 @@ const Product = () => {
     return (
         <div className="bg-gray-100">
             <div>
-                <h1 className="text-5xl font-bold text-center py-5">Product</h1>
+                <h1 className="text-5xl font-bold text-center py-5">Products</h1>
             </div>
             <div className="w-full min-h-screen flex justify-center items-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4  ">

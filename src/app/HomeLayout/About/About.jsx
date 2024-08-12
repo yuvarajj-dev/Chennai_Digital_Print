@@ -9,6 +9,7 @@ import "./About.css";
 // https://live.templately.com/printify-home/
 gsap.registerPlugin(ScrollTrigger);
 const About = () => {
+
     useGSAP(() => {
         if (window.innerWidth >= 1024) {
             let ctx = gsap.context(() => {
@@ -43,13 +44,7 @@ const About = () => {
                         { opacity: 1, y: "0rem" }, 
                         { opacity: 0, y: "-5rem", duration: 1, ease: "power3.out" }  
                     );
-
-
-                // Add animations to the timeline
-                // tl.to('#card1', { y: '-5rem', duration: 1 })
-                //     .to('#card2', { y: '-5rem', duration: 1 })
-                //     .to('#card3', { y: '-5rem', duration: 1 })
-                //     .to('#card4', { y: '-5rem', duration: 1 });
+ 
             });
 
             return () => {
