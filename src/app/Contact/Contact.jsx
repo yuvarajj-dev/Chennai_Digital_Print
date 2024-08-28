@@ -15,11 +15,11 @@ const Contact = () => {
                 <div className="bg-[#fee827]"></div>
             </div>
             <div id="Contact" className='Footer  w-full bg-[#2b2b2b] text-white  py-10'> 
-                <div className="grid grid-cols-2">
+                <div className="grid lg:grid-cols-2">
                     <div className="footer  ">
                         <div className='Footerleft text-sm sm:text-lg   '>
                             <div>
-                                <h1 className="text-[25px] font-bold  ">Visit us</h1>
+                                <h1 className="md:text-[25px] text-[18px] font-bold  ">Visit us</h1>
                             </div>
                             <div className="py-5">
                                 <div className="map  py-2  ">
@@ -169,9 +169,9 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='Footerright text-sm sm:text-lg text-center sm:text-start  lg:mt-0  mt-10  '>
+                        <div className='Footerright text-sm sm:text-lg  sm:text-start  lg:mt-0  mt-2  '>
                             <div className='Timing'>
-                                <h1 className='font-bold text-[25px]  '>Shop Timing</h1>
+                                <h1 className='font-bold md:text-[25px] text-[18px]  '>Shop Timing</h1>
                                 <div className="flex gap-2 py-5">
                                     <div>
                                         <p>Working Days: </p>
@@ -183,7 +183,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='Socialicons  flex sm:justify-start justify-center '>
+                            <div className='Socialicons  flex sm:justify-start   '>
                                 <div className="instagram">
                                     <svg xmlns="http://www.w3.org/2000/svg" className='hover:fill-[rgb(228,65,114)]' x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
                                         <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
@@ -207,16 +207,15 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="googlemap">
-                        <div className="   ">
-                            <h1 className="text-[25px] font-bold">Live Location</h1>
+                    <div className="googlemap  ">
+                        <div className="lg:px-0 px-6">
+                            <h1 className="md:text-[25px] text-[18px] font-bold">Live Location</h1>
                         </div>
                         <div className="py-5">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15547.673322166169!2d80.2394068!3d13.0408703!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52665157e1357b%3A0xbf09b3cba87889ce!2sChennai%20Xerox!5e0!3m2!1sen!2sin!4v1714973939854!5m2!1sen!2sin"
-                                width="600"
-                                height="450"
-                                className='gmap   '
+                                 
+                                className='gmap xl:w-[600px] xl:h-[450px] lg:w-[500px] lg:h-[450px] w-full h-[600px] '
                                 style={{ border: "2px solid white", borderRadius: "10px", margin: "0 0" }}
                                 allowFullScreen=""
                                 loading="lazy"

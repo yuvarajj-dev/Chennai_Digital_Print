@@ -6,7 +6,7 @@ const Cards = () => {
         <>
             <div className="Cards pt-5 pb-10">
                 <div>
-                    <h1 className="text-5xl font-bold text-center pb-10 ">Products</h1>
+                    <h1 className="lg:text-[55px]  text-[25px] font-bold text-center md:pb-10 ">Products</h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-3  ">
                      

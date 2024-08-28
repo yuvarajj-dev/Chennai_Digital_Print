@@ -21,10 +21,7 @@ const Intro = () => {
                     </button>
                     </Link>
                 </div>
-            </div>
-
-
-
+            </div> 
             <div className=''>
                 <video className='h-screen w-full object-cover brightness-50 ' autoPlay muted loop>
                     <source src="/introvideo/introvideo.mp4" type="video/mp4" />
