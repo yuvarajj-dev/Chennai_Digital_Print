@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className='bg-[#FFF]  md:py-2 py-1 max-w-[1000px] w-full mx-auto rounded-3xl z-50'>
             <div className='container mx-auto'>
-                <div className='flex flex-wrap items-center md:justify-between justify-between  w-full'>
+                <div className='flex flex-wrap items-center md:justify-between    w-full'>
                     <div className='z-40'>
                         <Link href={"#Home"}>
                             <div className='flex'>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         <Link className='pl-9 text-[17px] text-[#000] hover:text-[#000000b8] font-[500] uppercase' href={"/product"}>Products</Link>
                         <Link className='pl-9 text-[17px] text-[#000] hover:text-[#000000b8] font-[500] uppercase' href={"#Contact"}>Contact</Link>
                         <Link
-                            className="pl-9 text-[17px] text-[#000] hover:text-[#000000b8] font-[500] uppercase"
+                            className="pl-9  "
                             href="https://wa.me/919500160804"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -49,12 +49,10 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    <div className='md:hidden pr-6 z-40 '>
+                    <div className='md:hidden pr-6 z-40 relative top-0 left-20 '>
                         <button onClick={() => { setOpen(!open) }}>
                             <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 18L20 18" stroke="#000" stroke-width="2" stroke-linecap="round"></path><path d="M4 12L20 12" stroke="#000" stroke-width="2" stroke-linecap="round"></path><path d="M4 6L20 6" stroke="#000" stroke-width="2" stroke-linecap="round"></path></svg>
                         </button>
-
-
                     </div>
                     <div className={`  ${open ? 'h-auto w-full relative top-0 left-0 z-50' : 'max-h-0 transition-all delay-100 overflow-hidden'}`} >
                         <div className='flex flex-col md:hidden w-full items-center '>
